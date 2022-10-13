@@ -4,7 +4,7 @@
   "description": "Prueba tecnica para playvox",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npx cypress run",
     "travelers": "cypress run --spec cypress/e2e/SpaceAndBeyond.cy.js --browser chrome --headed"
   },
   "author": "Juan Mesa",
